@@ -10,3 +10,12 @@ cd ..
 git add submodule
 git commit -m "Update submodule"
 ```
+
+## Update submodule to latest master
+```
+cd submodule_name
+git checkout master && git pull
+cd ..
+git add submodule_name
+git commit -m "updating submodule to latest"
+```
